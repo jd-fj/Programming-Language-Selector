@@ -1,15 +1,15 @@
 // business logic
 $(document).ready(function() {
   $("#survey").submit(function(e) {
-    const answer1 = $("input:radio[name=question1]:checked").val();
-    const answer2 = $("input:radio[name=question2]:checked").val();
-    const answer3 = $("input:radio[name=question3]:checked").val();
-    const answer4 = $("input:radio[name=question4]:checked").val();
-    const answer5 = $("input:radio[name=question5]:checked").val();
+    const answer1 = parseInt($("input:radio[name=question1]:checked").val());
+    const answer2 = parseInt($("input:radio[name=question2]:checked").val());
+    const answer3 = parseInt($("input:radio[name=question3]:checked").val());
+    const answer4 = parseInt($("input:radio[name=question4]:checked").val());
+    const answer5 = parseInt($("input:radio[name=question5]:checked").val());
 
     
     // UI logic
-    if (answer1 <= 2) {
+    if (answer1 + answer2 <= 4) {
       $("#python").show();
     } else if (answer1 > 5) {
       $("#csharp").show();
