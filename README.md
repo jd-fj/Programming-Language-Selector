@@ -14,10 +14,12 @@ Software Reqirements
 
 
 Open by downloading
-1. 
+
+1. $ git clone
 2. 
 
 Open via Bash/GitBash
+
 1. you can put bits of code inside the back ticks `git clone {repo URL}`
 
 ## Known Bugs
