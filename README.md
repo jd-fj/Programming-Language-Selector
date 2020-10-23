@@ -15,8 +15,8 @@ Software Reqirements
 
 Open by downloading
 
-1. $ git clone
-2. 
+1. [Navigate to my GitHub repo](https://github.com/taylulz/Programming-Language-Selector)
+2. Click the green **Code** button ![Image of Code button](/img/GHbutton.png)
 
 Open via Bash/GitBash
 
@@ -27,3 +27,4 @@ Open via Bash/GitBash
 # Leagl
 Copyright (c) 2020 Taylor Delph
 This website is licensed under the MIT license.
+s
