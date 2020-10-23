@@ -8,12 +8,12 @@ Answer a series of questions to find out what programming language you should le
 ## View Online 
 1. visit my {gh-pages link}
 
+## Setup and installation instructions
+
 Software Reqirements
 1. A web browser
 2. Bash/GitBash
 3. Code editor like VS Code to view or edit the code
-
-## Setup and installation instructions
 
 Open by downloading
 
@@ -33,6 +33,9 @@ Open by downloading
 Open via Bash/GitBash
 
 1. To clone this repository, go to your terminal and enter: `$ git clone https://github.com/taylulz/Programming-Language-Selector.git`
+2. Navigate to downloaded repository
+3. Drag repository folder into VS Code or other code editor to view contents
+4. If you do not have a code editor, you can double click the index.html instead, to open the page in your internet browser.
 
 ## Known Bugs
 
