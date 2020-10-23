@@ -1,11 +1,11 @@
 // business logic
 $(document).ready(function() {
   $("#survey").submit(function(e) {
-    const answer1 = $("input#question1").val();
-    const answer2 = $("input#question2").val();
-    const answer3 = $("input#question3").val();
-    const answer4 = $("input#question4").val();
-    const answer5 = $("input#question5").val();
+    const answer1 = $("input:radio[name=question1]:checked").val();
+    const answer2 = $("input:radio[name=question2]:checked").val();
+    const answer3 = $("input:radio[name=question3]:checked").val();
+    const answer4 = $("input:radio[name=question4]:checked").val();
+    const answer5 = $("input:radio[name=question5]:checked").val();
 
     // UI logic
     $("#insertAnswer1").text(answer1)

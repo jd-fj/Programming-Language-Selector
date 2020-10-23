@@ -12,8 +12,32 @@
   <h2> Please honestly answer the following questions about yourself and the Almighty Coding Goddess shall appoint you with the programming language best suited for <strong><em>YOU</em></strong></h2>
 
   <form id="survey">
-    <label for="question1">What's one adjective that describes you best?</label>
-    <input id="question1" class="form-control" type="text">
+    <h3>Which one describes you best?</h3>
+
+    <!-- QUESTION 1 -->
+    <div id="ask1">
+      <div class="radio">
+        <label>
+          <input type="radio" name="question1" value="1">
+          Cool
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="question1" value="2">
+          Tubular
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="question1" value="3">
+          Always chilly
+        </label>
+      </div>
+    </div>
+
+    <!-- QUESTION 2 -->
+
 
     <label for="question2">What do you like to eat?</label>
     <input id="question2" class="form-control" type="text">
@@ -25,7 +49,7 @@
     <input id="question4" class="form-control" type="text">
 
     <label for="question5">What size shoes do you wear?</label>
-    <input id="question5" class="form-control" type="text">
+    <input id="question5" class="form-control" type="number">
 
     <button type="submit" class="btn">Submit</button>
   </form>
