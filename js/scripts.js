@@ -9,11 +9,15 @@ $(document).ready(function() {
 
     
     // UI logic
-    if (answer1 + answer2 <= 4) {
+    if (answer1 + answer2 + answer3 + answer4 + answer5 <= 5) {
       $("#python").show();
-    } else if (answer1 > 5) {
-      $("#csharp").show();
-    }
+      } else if (answer1 + answer2 + answer3 + answer4 + answer5 <= 7) {
+        $("#csharp").show();
+      } else if (answer1 + answer2 + answer3 + answer4 + answer5 <= 14) {
+        $("#js").show();
+      } else (answer1 + answer2 + answer3 + answer4 + answer5 === 15); {
+        $("#rails").show();
+      }
     
     
     // $("#insertAnswer1").text(answer1)
