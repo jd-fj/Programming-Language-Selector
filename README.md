@@ -21,9 +21,11 @@ Open by downloading
 2. Click the green **Code** button.  
 
 ![Image of Code button](/img/GHbutton.png)
+
 3. Click 'Download ZIP' option. 
 
 ![Image of Download ZIP](/img/zip.png)
+
 4. Unzip file when it finishes downloading.
 5. Drag unzipped folder into VS Code or other code editor to view contents.
 6. If you do not have a code editor, you can double click the index.html instead to open the page in your internet browser.
