@@ -6,7 +6,7 @@ by Taylor Delph
 Answer a series of questions to find out what programming language you should learn. 
 
 ## View Online 
-1. Visit my [gh-pages link](https://github.com/taylulz/Programming-Language-Selector/deployments/activity_log?environment=github-pages)
+1. Visit my [gh-pages link](https://taylulz.github.io/Programming-Language-Selector/)
 
 ## Setup and installation instructions
 
