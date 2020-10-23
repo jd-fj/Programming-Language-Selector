@@ -7,13 +7,13 @@ $(document).ready(function() {
     const answer4 = $("input:radio[name=question4]:checked").val();
     const answer5 = $("input:radio[name=question5]:checked").val();
 
+    console.log(answer1);
+    
     // UI logic
-    if question1 + question2 + question3 + question 4 + question5 <= 5 {
-      $("#python").show();
-      $("#c#").hide();
-      $("#js").hide();
-      $("#rails").hide();
+    if (answer1 <= 5) {
+      
     }
+    
     // $("#insertAnswer1").text(answer1)
     // $("#insertAnswer2").text(answer2)
     // $("#insertAnswer3").text(answer3)
