@@ -1,4 +1,19 @@
-.answer {
+img {
+  max-width: 25%;
+}
+
+#python {
   display: none;
 } 
 
+#csharp {
+  display: none;
+}
+
+#js {
+  display: none;
+}
+
+#rails {
+  display: none;
+}

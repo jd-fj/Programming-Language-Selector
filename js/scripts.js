@@ -7,12 +7,14 @@ $(document).ready(function() {
     const answer4 = $("input:radio[name=question4]:checked").val();
     const answer5 = $("input:radio[name=question5]:checked").val();
 
-    console.log(answer1);
     
     // UI logic
-    if (answer1 <= 5) {
-      
+    if (answer1 <= 2) {
+      $("#python").show();
+    } else if (answer1 > 5) {
+      $("#csharp").show();
     }
+    
     
     // $("#insertAnswer1").text(answer1)
     // $("#insertAnswer2").text(answer2)
