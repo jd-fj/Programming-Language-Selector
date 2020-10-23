@@ -6,7 +6,7 @@ by Taylor Delph
 Answer a series of questions to find out what programming language you should learn. 
 
 ## View Online 
-1. visit my {gh-pages link}
+1. Visit my {gh-pages link}
 
 ## Setup and installation instructions
 
@@ -35,7 +35,7 @@ Open via Bash/GitBash
 1. To clone this repository, go to your terminal and enter: `$ git clone https://github.com/taylulz/Programming-Language-Selector.git`
 2. Navigate to downloaded repository
 3. Drag repository folder into VS Code or other code editor to view contents
-4. If you do not have a code editor, you can double click the index.html instead, to open the page in your internet browser.
+4. If you do not have a code editor, you can double click the index.html instead to open the page in your internet browser.
 
 ## Known Bugs
 
