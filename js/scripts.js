@@ -7,7 +7,6 @@ $(document).ready(function() {
     const answer4 = parseInt($("input:radio[name=question4]:checked").val());
     const answer5 = parseInt($("input:radio[name=question5]:checked").val());
 
-    
     // UI logic
     if (answer1 + answer2 + answer3 + answer4 + answer5 <= 5) {
       $("#python").show();
@@ -18,9 +17,6 @@ $(document).ready(function() {
       } else (answer1 + answer2 + answer3 + answer4 + answer5 === 15); {
         $("#rails").show();
       }
-    
-
     e.preventDefault();
-    
   })
 })
