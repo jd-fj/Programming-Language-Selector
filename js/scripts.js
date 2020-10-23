@@ -19,12 +19,6 @@ $(document).ready(function() {
         $("#rails").show();
       }
     
-    
-    // $("#insertAnswer1").text(answer1)
-    // $("#insertAnswer2").text(answer2)
-    // $("#insertAnswer3").text(answer3)
-    // $("#insertAnswer4").text(answer4)
-    // $("#insertAnswer5").text(answer5)
 
     e.preventDefault();
     
