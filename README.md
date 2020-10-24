@@ -40,6 +40,7 @@ Open via Bash/GitBash
 ## Known Bugs
 
 * Results populate more than one image
+* Page does not clear or refresh results after initial form submission
 
 # Leagl
 Copyright (c) 2020 Taylor Delph
