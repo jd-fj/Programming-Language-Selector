@@ -44,4 +44,5 @@ Open via Bash/GitBash
 
 # Leagl
 Copyright (c) 2020 Taylor Delph
+
 This website is licensed under the MIT license.
