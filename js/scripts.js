@@ -7,19 +7,21 @@ $(document).ready(function() {
     const answer4 = parseInt($("input:radio[name=question4]:checked").val());
     const answer5 = parseInt($("input:radio[name=question5]:checked").val());
 
-    console.log(answer1 +answer2)
-    console.log(answer1 + answer2 + answer3 + answer4 + answer5)
+    let combo = (answer1 + answer2 + answer3 + answer4 + answer5)
+
+    console.log(combo)
 
     // UI logic
-    if (answer1 + answer2 + answer3 + answer4 + answer5 <= 5) {
+    if (combo <= 5) {
       $("#python").show();
-      } else if (answer1 + answer2 + answer3 + answer4 + answer5 <= 7) {
+      } else if (combo >= 6 && combo <= 7) {
         $("#csharp").show();
-      } else if (answer1 + answer2 + answer3 + answer4 + answer5 <= 14) {
+      } else if (combo >= 8 && combo <= 14) {
         $("#js").show();
-      } else (answer1 + answer2 + answer3 + answer4 + answer5 === 15); {
+      } else if (combo === 15); {
         $("#rails").show();
-      }
+      } 
+        
     e.preventDefault();
-  })
+  }) 
 })
