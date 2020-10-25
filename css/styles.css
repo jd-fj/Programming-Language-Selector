@@ -4,22 +4,29 @@
   height: 100%;
 }
 
+#survey {
+  ;
+}
+
+.jumbotron {
+  background-image: url("/img/goddess.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  color: white;
+  opacity: .8;
+}
+
 img {
   max-width: 25%;
 }
 
-#python {
+#python, #csharp, #js, #rails {
   display: none;
 } 
 
-#csharp {
-  display: none;
-}
 
-#js {
-  display: none;
+.lead {
+  font-size: 28px;
 }
-
-#rails {
-  display: none;
-}
+h1
