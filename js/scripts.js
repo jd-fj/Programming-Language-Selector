@@ -7,6 +7,12 @@ $(document).ready(function() {
     const answer4 = parseInt($("input:radio[name=question4]:checked").val());
     const answer5 = parseInt($("input:radio[name=question5]:checked").val());
 
+    console.log(typeof(answer1));
+    console.log(typeof(answer2));
+    console.log(typeof(answer3));
+    console.log(typeof(answer4));
+    console.log(typeof(answer5));
+
     // UI logic
     if (answer1 + answer2 + answer3 + answer4 + answer5 <= 5) {
       $("#python").show();
