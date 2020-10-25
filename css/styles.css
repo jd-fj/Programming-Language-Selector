@@ -4,10 +4,6 @@
   height: 100%;
 }
 
-#survey {
-  ;
-}
-
 .jumbotron {
   background-image: url("/img/goddess.gif");
   background-repeat: no-repeat;
@@ -21,7 +17,7 @@ img {
   max-width: 25%;
 }
 
-#python, #csharp, #js, #rails {
+#python, #csharp, #js, #rails, #missed {
   display: none;
 } 
 
@@ -29,4 +25,3 @@ img {
 .lead {
   font-size: 28px;
 }
-h1

@@ -14,11 +14,12 @@ $(document).ready(function() {
     // UI logic
     if (combo <= 5) {
       $("#python").show();
-      } else if (combo >= 6 && combo <= 7) {
+      $("#rails").hide();
+      } else if (combo >= 7 && combo < 8) {
         $("#csharp").show();
       } else if (combo >= 8 && combo <= 14) {
         $("#js").show();
-      } else if (combo === 15); {
+      } else (combo === 15 && combo > 6); {
         $("#rails").show();
       } 
         
