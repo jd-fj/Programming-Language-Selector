@@ -5,12 +5,18 @@
 }
 
 .jumbotron {
-  background-image: url("/img/goddess.gif");
+  background-image: url("/img/fountain.gif");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100% 100%;
-  color: white;
-  opacity: .8;
+  background-size: 100% 100%; 
+  opacity: .6;
+}
+
+#jumbText {
+  font-size: 100px;
+  color: rgb(255, 255, 0);
+  font-family: monospace;
+  text-shadow: 2px 3px purple;
 }
 
 img {
@@ -24,4 +30,11 @@ img {
 
 .lead {
   font-size: 28px;
+}
+
+.btn {
+  border: solid rgb(255, 188, 222);
+  border-radius: 3px;
+  background-color: rgb(225, 251, 255);
+  opacity: .9;
 }

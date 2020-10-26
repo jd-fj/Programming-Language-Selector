@@ -6,28 +6,26 @@ $(document).ready(function() {
     const answer3 = parseInt($("input:radio[name=question3]:checked").val());
     const answer4 = parseInt($("input:radio[name=question4]:checked").val());
     const answer5 = parseInt($("input:radio[name=question5]:checked").val());
-
     const combo = (answer1 + answer2 + answer3 + answer4 + answer5)
-
     console.log(combo)
 
     // UI logic
-    if (combo <= 5) {
-        $("#python").show();
-        $("#rails").hide(); 
-        console.log(combo)
-      } else if (combo >= 6 && combo < 9) {
-        $("#csharp").show();
-        console.log(combo)
-      } else if (combo >= 9 && combo <= 14) {
-        $("#js").show();
-        console.log(combo)
-      } else (combo >= 15); {
-        $("#rails").show();
-        console.log("this should not be here because it's not >= 15")
-      } 
-        
+    if (answer1 <= 5) {
+      $("#python").show();
+      console.log(combo)
+    } else if (combo >= 6 && combo < 9) {
+      $("#csharp").show();
+      console.log(combo)
+    } else if (combo >= 9 && combo <= 14) {
+      $("#js").show();
+      console.log(combo)
+    } else (combo === 15); {
+      $("#rails").show();
+      console.log("this should not be here because it's not > 15")
+    } 
+
     e.preventDefault();
+    console.log();
   }) 
 })
 
