@@ -13,15 +13,18 @@ $(document).ready(function() {
 
     // UI logic
     if (combo <= 5) {
-        // $("#python").show();
-        // $("#rails").hide(); 
-        console.log("this is under 5")
+        $("#python").show();
+        $("#rails").hide(); 
+        console.log(combo)
       } else if (combo >= 6 && combo < 9) {
         $("#csharp").show();
+        console.log(combo)
       } else if (combo >= 9 && combo <= 14) {
         $("#js").show();
+        console.log(combo)
       } else (combo >= 15); {
         $("#rails").show();
+        console.log("this should not be here because it's not >= 15")
       } 
         
     e.preventDefault();
