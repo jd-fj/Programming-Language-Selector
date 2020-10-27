@@ -41,6 +41,7 @@ Open via Bash/GitBash
 
 * Results populate more than one image
 * Page does not clear or refresh results after initial form submission
+* Jumbotron gif background not displaying
 
 # Leagl
 Copyright (c) 2020 Taylor Delph

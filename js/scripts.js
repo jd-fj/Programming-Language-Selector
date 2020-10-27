@@ -10,7 +10,7 @@ $(document).ready(function() {
     console.log(combo)
 
     // UI logic
-    if (answer1 <= 5) {
+    if (combo <= 5) {
       $("#python").show();
       console.log(combo)
     } else if (combo >= 6 && combo < 9) {
