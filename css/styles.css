@@ -5,19 +5,23 @@
 }
 
 .jumbotron {
-  background-image: url("/img/fountain.gif");
+  /* background-image: url("/img/fountain.gif"); */
+  background-image: linear-gradient(to right, rgb(203, 171, 203), rgba(195, 255, 0, 0.368));
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%; 
+  background-color: rgb(175, 144, 198);
   opacity: .6;
 }
 
 #jumbText {
-  font-size: 100px;
   color: rgb(255, 255, 0);
   font-family: monospace;
   text-shadow: 2px 3px purple;
+  text-emphasis-color: red;
+  text-emphasis-color: 100px;
 }
+
 
 img {
   max-width: 25%;
@@ -37,4 +41,25 @@ img {
   border-radius: 3px;
   background-color: rgb(225, 251, 255);
   opacity: .9;
+  padding: 80px;
+  margin: 50px;
+  margin-left: 0px;
+}
+
+.radio {
+  color: grey;
+  font-size: larger;
+}
+
+.radio:hover {
+  color: blueviolet;
+}
+
+#ask1, #ask2, #ask3, #ask4, #ask5, {
+  box-sizing: border-box;
+  padding: 2%;
+}
+
+#radio, label  {
+  cursor: grab;
 }
